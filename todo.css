@@ -1,0 +1,29 @@
+html{
+  width: 80%;
+  font-family: sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+  }
+.donelist{
+  text-decoration: line-through;
+  color: lightgray;
+}
+button{
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: #fff;
+  border: 2px;
+  background-color: #007bff;
+  transition: background-color .2s;
+}
+button:hover{
+  background-color: #0069d9;
+}
+button:active{
+  background-color: #003c7c;
+}
+button:disabled{
+  opacity: .5;
+  pointer-events: none;
+}
